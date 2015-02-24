@@ -1,0 +1,8 @@
+[run]
+source = instructions
+
+[report]
+omit =
+    */compat.py
+    */python?.?/*
+    */site-packages/*

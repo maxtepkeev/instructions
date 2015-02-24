@@ -1,0 +1,26 @@
+a.reference.external.image-reference {
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+pre {
+    padding-left: 15px;
+}
+
+dl pre, blockquote pre {
+    margin-left: -30px;
+    padding-left: 15px;
+}
+
+dl dl pre, li pre {
+    margin-left: 0;
+    padding-left: 15px;
+}
+
+pre, tt {
+    font-size: 14px;
+}
+
+.highlight .go {
+    color: #888888;
+}
