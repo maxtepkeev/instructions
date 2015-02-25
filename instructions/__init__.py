@@ -1,3 +1,4 @@
+from .version import __version__
 from .commands import *
 
 # commands package provides us with an API in it's __init__.py
