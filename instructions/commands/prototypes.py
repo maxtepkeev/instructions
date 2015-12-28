@@ -102,9 +102,9 @@ class FindCommand(Command):
                 continue
 
             if (
-                isinstance(obj, collections.Iterable)
-                and not isinstance(obj, stringlike)
-                and (self.level == 0 or self.level > _level)
+                isinstance(obj, collections.Iterable) and
+                not isinstance(obj, stringlike) and
+                (self.level == 0 or self.level > _level)
             ):
                 if self.filter.datatype.py is not dict and isinstance(obj, dict):
                     obj = iterkeys(obj) if self.indict == 'keys' else itervalues(obj)
