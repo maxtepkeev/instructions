@@ -4,7 +4,7 @@ exec(open('instructions/version.py').read())
 
 setup(
     name='instructions',
-    version=__version__,
+    version=globals()['__version__'],
     packages=find_packages(exclude=('tests', 'tests.*')),
     url='https://github.com/maxtepkeev/instructions',
     license=open('LICENSE').read(),
