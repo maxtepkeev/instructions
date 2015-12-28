@@ -30,7 +30,7 @@ and it will magically execute your instruction.
 Features
 --------
 
-* Supports Python 2.6 - 3.4, PyPy and PyPy3
+* Supports Python 2.6 - 3.5, PyPy and PyPy3
 * Supports all built-in Python data types
 * Easily extendable
 * Extensively documented
