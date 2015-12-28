@@ -64,9 +64,9 @@ class DataTypeMeta(type):
                 filtr = copy.copy(value)
 
                 if (
-                    filtr.datatype is not None
-                    and filtr.datatype.py in filtr.accept_types
-                    and filtr.datatype.py != cls.py
+                    filtr.datatype is not None and
+                    filtr.datatype.py in filtr.accept_types and
+                    filtr.datatype.py != cls.py
                 ):
                     filtr.accept_types = (getattr(cls, 'accept_types', cls.py),)
 
