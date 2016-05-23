@@ -4,9 +4,6 @@ Instructions
 .. image:: https://badge.fury.io/py/instructions.svg
    :target: https://badge.fury.io/py/instructions
 
-.. image:: https://img.shields.io/pypi/dm/instructions.svg
-   :target: https://pypi.python.org/pypi/instructions
-
 .. image:: https://img.shields.io/travis/maxtepkeev/instructions/master.svg
    :target: https://travis-ci.org/maxtepkeev/instructions
 
