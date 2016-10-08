@@ -51,7 +51,7 @@ or:
 Documentation
 -------------
 
-Documentation is available at https://instructions.readthedocs.org.
+Documentation is available at https://instructions.readthedocs.io.
 
 Contacts and Support
 --------------------
