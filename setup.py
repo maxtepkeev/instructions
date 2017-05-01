@@ -7,7 +7,7 @@ setup(
     version=globals()['__version__'],
     packages=find_packages(exclude=('tests', 'tests.*')),
     url='https://github.com/maxtepkeev/instructions',
-    license=open('LICENSE').read(),
+    license='Apache 2.0',
     author='Max Tepkeev',
     author_email='tepkeev@gmail.com',
     description='Working with iterable data structures made easy',
