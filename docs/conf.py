@@ -51,7 +51,6 @@ html_theme_options = {
     'github_repo': 'instructions',
     'github_type': 'star',
     'github_banner': 'true',
-    'gratipay_user': 'maxtepkeev',
     'show_powered_by': 'false',
 }
 
@@ -65,7 +64,7 @@ html_static_path = ['_static']
 
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
-    '**': ['about.html', 'navigation.html', 'searchbox.html', 'donate.html']
+    '**': ['about.html', 'navigation.html', 'searchbox.html']
 }
 
 # If false, no index is generated.
