@@ -29,7 +29,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Instructions'
-copyright = u'2017, Max Tepkeev'
+copyright = u'2019, Max Tepkeev'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
